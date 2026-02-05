@@ -7,6 +7,7 @@ Handles:
 Historical power outage data
 Infrastructure & weather indicators
 Performs basic preprocessing (cleaning, feature selection)
+
 2️⃣ Machine Learning Engine
 Implemented in Python
 Uses trained ML model to:
@@ -21,13 +22,15 @@ Converts probability into severity levels
 Applies rule-based logic:
 HIGH / MEDIUM / LOW severity mapping
 Ensures consistency and interpretability of ML results
-4️⃣ ## Generative AI Explanation Module
+
+4️⃣ Generative AI Explanation Module
 Uses Google Gemini API (google-genai)
 Transforms technical ML outputs into:
 Clear explanations
 Impact assessment
 Preventive recommendations
 Includes fallback logic for reliability if API fails
+
 5️⃣ Backend API Layer
 Built using FastAPI
 Exposes endpoints to:
@@ -35,6 +38,7 @@ Accept input parameters (location, conditions)
 Trigger ML prediction
 Generate AI explanations
 Returns structured JSON response
+
 6️⃣  Error Handling & Rate Control
 Exception handling for:
 API failures

@@ -17,6 +17,7 @@ Outputs:
 Probability score
 Risk category
 Key contributing factors
+
 3️⃣  Risk Analysis Module
 Converts probability into severity levels
 Applies rule-based logic:

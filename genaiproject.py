@@ -8,7 +8,7 @@ from google import genai  # Updated to the 2026 unified library
 # =========================
 
 # Using the key you provided directly (ensure this is kept private in production!)
-api_key = "AIzaSyBhd-HXkQyex_45ciMAQ_qM6uzEH2qtHUo"
+api_key = "AIzaSyBhd-HXkQyex_45ciMAQ_qM6uzEH-2qtHUo" # F_API
 
 # =========================
 # INITIALIZATION
@@ -111,4 +111,5 @@ if __name__ == "__main__":
     )
 
     print("===== AI GENERATED OUTPUT =====\n")
+
     print(result)

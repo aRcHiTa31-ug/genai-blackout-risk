@@ -46,5 +46,6 @@ API failures
 Invalid inputs
 time.sleep() used to manage free-tier rate limits ( can add)
 
+
 ## Backend Flow
 Input → Data Processing → ML Prediction → Severity Mapping → GenAI Explanation → API Response
